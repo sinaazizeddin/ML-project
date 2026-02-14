@@ -1,0 +1,22 @@
+{
+  "winner_model_name": "SoftVoting_SMOTE",
+  "winner_threshold": 0.06,
+  "final_features": [
+    "Contract",
+    "tenure",
+    "InternetService",
+    "TenureGroup",
+    "PaymentMethod",
+    "DeviceProtection",
+    "TotalCharges",
+    "ChargesPerTenure",
+    "OnlineSecurity",
+    "MonthlyCharges",
+    "TechSupport",
+    "StreamingMovies",
+    "OnlineBackup",
+    "StreamingTV",
+    "MultipleLines"
+  ],
+  "min_f1_constraint": 0.505
+}
