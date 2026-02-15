@@ -221,4 +221,13 @@ Top models are tightly grouped by ROC-AUC:
 
 **Interpretation:** churn risk is dominated by **contract/tenure economics** and **billing/service structure**, not demographics.
 
+---
 
+## Actionable recommendations
+1. **Contract conversion (highest impact):** Month-to-month customers churn at **42.7%**. Offer contract-upgrade incentives (12–24 month discounts, perks, bundled services) to reduce churn through stronger commitment.
+2. **Early lifecycle retention:** Churners have median tenure **10 months** vs **38 months** for non-churners. Focus retention interventions in the first months (onboarding, welcome calls, proactive issue resolution).
+3. **Pricing/value optimization:** MonthlyCharges is higher for churners (median **79.65** vs **64.43**). For high-charge customers, offer plan right-sizing, bundles, or temporary relief to improve perceived value.
+4. **Payment method improvement:** Electronic check customers have the highest churn (**45.3%**). Encourage autopay/bank transfer and simplify billing; even small incentives can reduce churn associated with payment friction.
+5. **Support/security bundling:** Lack of OnlineSecurity (**41.8% churn**) and TechSupport (**41.6% churn**) is strongly associated with churn. Provide free trials or discounted bundles for high-risk segments.
+6. **Fiber optic segment focus:** Fiber optic churn is high (**41.9%**). Improve service reliability/support experience and target this segment with tailored retention offers.
+7. **Deployment strategy:** The selected threshold is recall-first, so false positives are expected. Use a **tiered churn-risk queue** to match intervention cost to predicted risk (cheap nudges for medium risk; stronger offers for top risk). This reduces wasted incentive spend while preserving the recall-first objective.
